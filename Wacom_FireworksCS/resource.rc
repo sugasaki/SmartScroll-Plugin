@@ -1,0 +1,227 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 日本語 (日本) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)
+LANGUAGE LANG_JAPANESE, SUBLANG_DEFAULT
+#pragma code_page(932)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,1,0
+ PRODUCTVERSION 1,0,1,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041104b0"
+        BEGIN
+            VALUE "CompanyName", "WACOM"
+            VALUE "FileDescription", "SmartScroll Plugin ( AutoCAD )"
+            VALUE "FileVersion", "1, 0, 1, 0"
+            VALUE "InternalName", "AutoCAD ALL Version"
+            VALUE "LegalCopyright", "Copyright GDF Co., Ltd. 2002"
+            VALUE "OriginalFilename", "AutoCAD.ssp"
+            VALUE "ProductName", "GDF raptnudy"
+            VALUE "ProductVersion", "1, 0, 1, 0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x411, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG DIALOGEX 65516, 10, 291, 161
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Adobe Fireworks"
+FONT 9, "ＭＳ Ｐゴシック", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "閉じる(&X)",IDOK,233,64,53,14
+    LTEXT           "ボタン１ ：",IDC_STATIC,5,4,32,8,SS_CENTERIMAGE
+    COMBOBOX        IDC_COMBO1,3,14,70,278,CBS_DROPDOWNLIST | CBS_OWNERDRAWFIXED | CBS_HASSTRINGS | WS_VSCROLL | WS_GROUP | WS_TABSTOP
+    LTEXT           "ボタン２ ：",IDC_STATIC,75,4,34,8,SS_CENTERIMAGE
+    COMBOBOX        IDC_COMBO2,74,14,70,278,CBS_DROPDOWNLIST | CBS_OWNERDRAWFIXED | CBS_HASSTRINGS | WS_VSCROLL | WS_GROUP | WS_TABSTOP
+    LTEXT           "ボタン３ ：",IDC_STATIC,146,4,32,8,SS_CENTERIMAGE
+    COMBOBOX        IDC_COMBO3,145,14,70,286,CBS_DROPDOWNLIST | CBS_OWNERDRAWFIXED | CBS_HASSTRINGS | WS_VSCROLL | WS_GROUP | WS_TABSTOP
+    LTEXT           "ボタン４ ：",IDC_STATIC,217,4,30,8,SS_CENTERIMAGE
+    COMBOBOX        IDC_COMBO4,216,14,70,286,CBS_DROPDOWNLIST | CBS_OWNERDRAWFIXED | CBS_HASSTRINGS | WS_VSCROLL | WS_GROUP | WS_TABSTOP
+    LTEXT           "ボタン５ ：",IDC_STATIC,5,32,35,8,SS_CENTERIMAGE
+    COMBOBOX        IDC_COMBO5,3,42,70,278,CBS_DROPDOWNLIST | CBS_OWNERDRAWFIXED | CBS_HASSTRINGS | WS_VSCROLL | WS_GROUP | WS_TABSTOP
+    LTEXT           "ボタン６ ：",IDC_STATIC,75,32,34,8,SS_CENTERIMAGE
+    COMBOBOX        IDC_COMBO6,74,42,70,282,CBS_DROPDOWNLIST | CBS_OWNERDRAWFIXED | CBS_HASSTRINGS | WS_VSCROLL | WS_GROUP | WS_TABSTOP
+    LTEXT           "ボタン７ ：",IDC_STATIC,147,32,34,8,SS_CENTERIMAGE
+    COMBOBOX        IDC_COMBO7,145,42,70,280,CBS_DROPDOWNLIST | CBS_OWNERDRAWFIXED | CBS_HASSTRINGS | WS_VSCROLL | WS_GROUP | WS_TABSTOP
+    LTEXT           "ボタン８ ：",IDC_STATIC,217,32,33,8,SS_CENTERIMAGE
+    COMBOBOX        IDC_COMBO8,216,42,70,278,CBS_DROPDOWNLIST | CBS_OWNERDRAWFIXED | CBS_HASSTRINGS | WS_VSCROLL | WS_GROUP | WS_TABSTOP
+    LTEXT           "ホイールボタン ：",IDC_STATIC,4,65,51,8,SS_CENTERIMAGE
+    COMBOBOX        IDC_COMBO_WHEEL,57,62,70,280,CBS_DROPDOWNLIST | CBS_OWNERDRAWFIXED | CBS_HASSTRINGS | WS_VSCROLL | WS_GROUP | WS_TABSTOP
+    PUSHBUTTON      "ﾃﾞﾌｫﾙﾄ設定(&D)",IDC_DEFAULT,174,64,53,14
+    RTEXT           "Copyright (C) 2003 GDF Co., Ltd. All rights reserved.",IDC_STATIC,118,82,169,8,SS_CENTERIMAGE
+    CONTROL         "",IDC_COMBOBOXEX1,"ComboBoxEx32",CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP,39,113,118,30
+    CONTROL         "Command1",IDC_COMMAND1,"Button",BS_COMMANDLINK | WS_TABSTOP,182,110,90,25
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 284
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 154
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+100                     ICON                    "res\\100.ico"
+101                     ICON                    "res\\101.ico"
+102                     ICON                    "res\\102.ico"
+103                     ICON                    "res\\103.ico"
+104                     ICON                    "res\\104.ico"
+105                     ICON                    "res\\105.ico"
+106                     ICON                    "res\\106.ico"
+107                     ICON                    "res\\107.ico"
+108                     ICON                    "res\\108.ico"
+109                     ICON                    "res\\109.ico"
+110                     ICON                    "res\\110.ico"
+111                     ICON                    "res\\111.ico"
+112                     ICON                    "res\\112.ico"
+113                     ICON                    "res\\113.ico"
+114                     ICON                    "res\\114.ico"
+115                     ICON                    "res\\115.ico"
+116                     ICON                    "res\\116.ico"
+117                     ICON                    "res\\117.ico"
+118                     ICON                    "res\\118.ico"
+119                     ICON                    "res\\119.ico"
+120                     ICON                    "res\\120.ico"
+121                     ICON                    "res\\icon1.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_NAME                "Adobe Fireworks"
+    IDS_NAME_EX             "Adobe Fireworks"
+END
+
+STRINGTABLE
+BEGIN
+    100                     "複写"
+    101                     "移動"
+    102                     "範囲ズーム"
+    103                     "窓ズーム"
+    104                     "線分"
+    105                     "円弧(3点)"
+    106                     "円(中心,半径)"
+    107                     "オフセット"
+    108                     "延長"
+    109                     "トリム"
+    110                     "Enter"
+    111                     "削除"
+END
+
+STRINGTABLE
+BEGIN
+    112                     "キャンセル"
+    113                     "コピー"
+    114                     "切り取り"
+    115                     "貼り付け"
+    116                     "元に戻す"
+    117                     "開く"
+    118                     "閉じる"
+    119                     "表示／非表示"
+    120                     "ｷｰｽﾄﾛｰｸ"
+    121                     "Regen"
+END
+
+#endif    // 日本語 (日本) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

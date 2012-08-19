@@ -1,0 +1,200 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 日本語 (日本) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)
+LANGUAGE LANG_JAPANESE, SUBLANG_DEFAULT
+#pragma code_page(932)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,1,0
+ PRODUCTVERSION 1,0,1,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041104b0"
+        BEGIN
+            VALUE "CompanyName", "WACOM"
+            VALUE "FileDescription", "SmartScroll Plugin ( Chrome )"
+            VALUE "FileVersion", "1, 0, 1, 0"
+            VALUE "InternalName", "Chrome"
+            VALUE "LegalCopyright", "Copyright WACOM Co., Ltd. 2002"
+            VALUE "OriginalFilename", "wordpad.ssp"
+            VALUE "ProductName", "WACOM SmartScroll"
+            VALUE "ProductVersion", "1, 0, 1, 0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x411, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG DIALOGEX 65516, 10, 291, 219
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Chrome プラグイン  ver β1.02"
+FONT 9, "ＭＳ Ｐゴシック", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "閉じる(&X)",IDOK,231,167,53,14
+    LTEXT           "ボタン１ ：",IDC_STATIC,5,4,32,8,SS_CENTERIMAGE
+    COMBOBOX        IDC_COMBO1,3,14,70,278,CBS_DROPDOWNLIST | CBS_OWNERDRAWFIXED | CBS_HASSTRINGS | WS_VSCROLL | WS_GROUP | WS_TABSTOP
+    LTEXT           "ボタン２ ：",IDC_STATIC,75,4,34,8,SS_CENTERIMAGE
+    COMBOBOX        IDC_COMBO2,74,14,70,278,CBS_DROPDOWNLIST | CBS_OWNERDRAWFIXED | CBS_HASSTRINGS | WS_VSCROLL | WS_GROUP | WS_TABSTOP
+    LTEXT           "ボタン３ ：",IDC_STATIC,146,4,32,8,SS_CENTERIMAGE
+    COMBOBOX        IDC_COMBO3,145,14,70,286,CBS_DROPDOWNLIST | CBS_OWNERDRAWFIXED | CBS_HASSTRINGS | WS_VSCROLL | WS_GROUP | WS_TABSTOP
+    LTEXT           "ボタン４ ：",IDC_STATIC,217,4,30,8,SS_CENTERIMAGE
+    COMBOBOX        IDC_COMBO4,216,14,70,286,CBS_DROPDOWNLIST | CBS_OWNERDRAWFIXED | CBS_HASSTRINGS | WS_VSCROLL | WS_GROUP | WS_TABSTOP
+    LTEXT           "ボタン５ ：",IDC_STATIC,5,32,35,8,SS_CENTERIMAGE
+    COMBOBOX        IDC_COMBO5,3,42,70,278,CBS_DROPDOWNLIST | CBS_OWNERDRAWFIXED | CBS_HASSTRINGS | WS_VSCROLL | WS_GROUP | WS_TABSTOP
+    LTEXT           "ボタン６ ：",IDC_STATIC,75,32,34,8,SS_CENTERIMAGE
+    COMBOBOX        IDC_COMBO6,74,42,70,282,CBS_DROPDOWNLIST | CBS_OWNERDRAWFIXED | CBS_HASSTRINGS | WS_VSCROLL | WS_GROUP | WS_TABSTOP
+    LTEXT           "ボタン７ ：",IDC_STATIC,147,32,34,8,SS_CENTERIMAGE
+    COMBOBOX        IDC_COMBO7,145,42,70,280,CBS_DROPDOWNLIST | CBS_OWNERDRAWFIXED | CBS_HASSTRINGS | WS_VSCROLL | WS_GROUP | WS_TABSTOP
+    LTEXT           "ボタン８ ：",IDC_STATIC,217,32,33,8,SS_CENTERIMAGE
+    COMBOBOX        IDC_COMBO8,216,42,70,278,CBS_DROPDOWNLIST | CBS_OWNERDRAWFIXED | CBS_HASSTRINGS | WS_VSCROLL | WS_GROUP | WS_TABSTOP
+    RTEXT           "ホイールボタン ：",IDC_STATIC,149,85,51,8,SS_CENTERIMAGE
+    COMBOBOX        IDC_COMBO_WHEEL,202,82,70,280,CBS_DROPDOWNLIST | CBS_OWNERDRAWFIXED | CBS_HASSTRINGS | WS_VSCROLL | WS_GROUP | WS_TABSTOP
+    PUSHBUTTON      "ﾃﾞﾌｫﾙﾄ設定(&D)",IDC_DEFAULT,172,167,53,14
+    RTEXT           "Copyright (C) 2002 WACOM Co., Ltd. All rights reserved.",IDC_STATIC,115,189,169,8,SS_CENTERIMAGE
+    RTEXT           "Copyright (C) 2012 GDF Co., Ltd.  www.sugasaki.com",IDC_STATIC,115,202,169,8,SS_CENTERIMAGE
+    GROUPBOX        "ホイール",IDC_STATIC,137,69,147,81
+    COMBOBOX        IDC_COMBO_WHEEL2,203,109,70,280,CBS_DROPDOWNLIST | CBS_OWNERDRAWFIXED | CBS_HASSTRINGS | WS_DISABLED | WS_VSCROLL | WS_GROUP | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_WHEEL3,203,127,70,280,CBS_DROPDOWNLIST | CBS_OWNERDRAWFIXED | CBS_HASSTRINGS | WS_DISABLED | WS_VSCROLL | WS_GROUP | WS_TABSTOP
+    RTEXT           "アップ ：",IDC_STATIC,149,112,51,8,SS_CENTERIMAGE
+    RTEXT           "ダウン ：",IDC_STATIC,149,130,51,8,SS_CENTERIMAGE
+    GROUPBOX        "未実装",IDC_STATIC,149,101,128,43
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 284
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 212
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_NAME                "Chrome"
+    IDS_NAME_EX             "Chrome"
+END
+
+STRINGTABLE
+BEGIN
+    100                     "新しいウィンドウを開く"
+    101                     "新しいタブを開く"
+    102                     "最近閉じたタブをもう一度開く"
+    103                     "最後のタブに切り替える"
+    104                     "次のタブに切り替える"
+    105                     "前のタブに切り替える"
+    106                     "現在のウィンドウを閉じる"
+    107                     "現在のタブまたはポップアップを閉じる"
+    108                     "ブックマーク バーの表示/非表示を切り替える"
+    109                     "履歴ページを開く"
+    110                     "ダウンロード ページを開く"
+    111                     "デベロッパー ツールを開く"
+END
+
+STRINGTABLE
+BEGIN
+    112                     "[閲覧履歴の消去] ダイアログを開く"
+    113                     "ページ全体を拡大表示"
+    114                     "ページ全体を縮小表示"
+    115                     "ページ全体を通常のサイズに戻す"
+    116                     "ページの先頭に移動"
+    117                     "ページの最後に移動"
+    118                     "表示／非表示"
+    119                     "ｷｰｽﾄﾛｰｸ"
+END
+
+#endif    // 日本語 (日本) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

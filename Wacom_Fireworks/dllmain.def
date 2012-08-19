@@ -1,0 +1,21 @@
+
+LIBRARY Fireworks
+
+DESCRIPTION 'SmartScroll Plug In'
+
+EXETYPE WINDOWS
+
+EXPORTS
+	SspLoadPlugin		@1
+	SspApplyProc		@2
+	SspInitProc			@3
+	SspReleaseProc		@4
+	SspButtonProc		@5
+	SspGetWheelEffect	@6
+	SspWheelProc		@7
+	SspScrollProc		@8
+	SspDialogProc		@9
+	SspGetIcon			@10
+	SspGetString		@11
+	SspTimerProc		@12
+

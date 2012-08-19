@@ -1,0 +1,225 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 日本語 resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)
+#ifdef _WIN32
+LANGUAGE LANG_JAPANESE, SUBLANG_DEFAULT
+#pragma code_page(932)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,1,0
+ PRODUCTVERSION 1,0,1,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041104b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "WACOM\0"
+            VALUE "FileDescription", "SmartScroll Plugin ( ワードパッド )\0"
+            VALUE "FileVersion", "1, 0, 1, 0\0"
+            VALUE "InternalName", "ワードパッド\0"
+            VALUE "LegalCopyright", "Copyright WACOM Co., Ltd. 2002\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "wordpad.ssp\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "WACOM SmartScroll\0"
+            VALUE "ProductVersion", "1, 0, 1, 0\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x411, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG DIALOG DISCARDABLE  65516, 10, 291, 91
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "ワードパッド プラグイン  ver1.01"
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    DEFPUSHBUTTON   "閉じる(&X)",IDOK,233,64,53,14
+    LTEXT           "ボタン１ ：",IDC_STATIC,5,4,32,8,SS_CENTERIMAGE
+    COMBOBOX        IDC_COMBO1,3,14,70,278,CBS_DROPDOWNLIST | 
+                    CBS_OWNERDRAWFIXED | CBS_HASSTRINGS | WS_VSCROLL | 
+                    WS_GROUP | WS_TABSTOP
+    LTEXT           "ボタン２ ：",IDC_STATIC,75,4,34,8,SS_CENTERIMAGE
+    COMBOBOX        IDC_COMBO2,74,14,70,278,CBS_DROPDOWNLIST | 
+                    CBS_OWNERDRAWFIXED | CBS_HASSTRINGS | WS_VSCROLL | 
+                    WS_GROUP | WS_TABSTOP
+    LTEXT           "ボタン３ ：",IDC_STATIC,146,4,32,8,SS_CENTERIMAGE
+    COMBOBOX        IDC_COMBO3,145,14,70,286,CBS_DROPDOWNLIST | 
+                    CBS_OWNERDRAWFIXED | CBS_HASSTRINGS | WS_VSCROLL | 
+                    WS_GROUP | WS_TABSTOP
+    LTEXT           "ボタン４ ：",IDC_STATIC,217,4,30,8,SS_CENTERIMAGE
+    COMBOBOX        IDC_COMBO4,216,14,70,286,CBS_DROPDOWNLIST | 
+                    CBS_OWNERDRAWFIXED | CBS_HASSTRINGS | WS_VSCROLL | 
+                    WS_GROUP | WS_TABSTOP
+    LTEXT           "ボタン５ ：",IDC_STATIC,5,32,35,8,SS_CENTERIMAGE
+    COMBOBOX        IDC_COMBO5,3,42,70,278,CBS_DROPDOWNLIST | 
+                    CBS_OWNERDRAWFIXED | CBS_HASSTRINGS | WS_VSCROLL | 
+                    WS_GROUP | WS_TABSTOP
+    LTEXT           "ボタン６ ：",IDC_STATIC,75,32,34,8,SS_CENTERIMAGE
+    COMBOBOX        IDC_COMBO6,74,42,70,282,CBS_DROPDOWNLIST | 
+                    CBS_OWNERDRAWFIXED | CBS_HASSTRINGS | WS_VSCROLL | 
+                    WS_GROUP | WS_TABSTOP
+    LTEXT           "ボタン７ ：",IDC_STATIC,147,32,34,8,SS_CENTERIMAGE
+    COMBOBOX        IDC_COMBO7,145,42,70,280,CBS_DROPDOWNLIST | 
+                    CBS_OWNERDRAWFIXED | CBS_HASSTRINGS | WS_VSCROLL | 
+                    WS_GROUP | WS_TABSTOP
+    LTEXT           "ボタン８ ：",IDC_STATIC,217,32,33,8,SS_CENTERIMAGE
+    COMBOBOX        IDC_COMBO8,216,42,70,278,CBS_DROPDOWNLIST | 
+                    CBS_OWNERDRAWFIXED | CBS_HASSTRINGS | WS_VSCROLL | 
+                    WS_GROUP | WS_TABSTOP
+    LTEXT           "ホイールボタン ：",IDC_STATIC,4,65,51,8,SS_CENTERIMAGE
+    COMBOBOX        IDC_COMBO_WHEEL,57,62,70,280,CBS_DROPDOWNLIST | 
+                    CBS_OWNERDRAWFIXED | CBS_HASSTRINGS | WS_VSCROLL | 
+                    WS_GROUP | WS_TABSTOP
+    PUSHBUTTON      "ﾃﾞﾌｫﾙﾄ設定(&D)",IDC_DEFAULT,174,64,53,14
+    RTEXT           "Copyright (C) 2002 WACOM Co., Ltd. All rights reserved.",
+                    IDC_STATIC,118,82,169,8,SS_CENTERIMAGE
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 284
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 84
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+100                     ICON    DISCARDABLE     "res\\new.ico"
+101                     ICON    DISCARDABLE     "res\\open.ico"
+102                     ICON    DISCARDABLE     "res\\save.ico"
+103                     ICON    DISCARDABLE     "res\\preview.ico"
+104                     ICON    DISCARDABLE     "res\\copy.ico"
+105                     ICON    DISCARDABLE     "res\\cut.ico"
+106                     ICON    DISCARDABLE     "res\\paste.ico"
+107                     ICON    DISCARDABLE     "res\\undo.ico"
+108                     ICON    DISCARDABLE     "res\\showhide.ico"
+109                     ICON    DISCARDABLE     "res\\key.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_NAME                "ワードパッド"
+    IDS_NAME_EX             "ワードパッド"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    100                     "新規"
+    101                     "開く"
+    102                     "保存"
+    103                     "印刷プレビュー"
+    104                     "コピー"
+    105                     "切り取り"
+    106                     "貼り付け"
+    107                     "元に戻す"
+    108                     "表示／非表示"
+    109                     "ｷｰｽﾄﾛｰｸ"
+END
+
+#endif    // 日本語 resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

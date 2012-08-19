@@ -1,0 +1,253 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 日本語 resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)
+#ifdef _WIN32
+LANGUAGE LANG_JAPANESE, SUBLANG_DEFAULT
+#pragma code_page(932)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,1,0
+ PRODUCTVERSION 1,0,1,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041104b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "WACOM\0"
+            VALUE "FileDescription", "SmartScroll Plugin ( AutoCAD )\0"
+            VALUE "FileVersion", "1, 0, 1, 0\0"
+            VALUE "InternalName", "AutoCAD ALL Version\0"
+            VALUE "LegalCopyright", "Copyright GDF Co., Ltd. 2002\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "AutoCAD.ssp\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "GDF raptnudy\0"
+            VALUE "ProductVersion", "1, 0, 1, 0\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x411, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG DIALOG DISCARDABLE  65516, 10, 291, 91
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "AutoCAD All Version  ver1.01"
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    DEFPUSHBUTTON   "閉じる(&X)",IDOK,233,64,53,14
+    LTEXT           "ボタン１ ：",IDC_STATIC,5,4,32,8,SS_CENTERIMAGE
+    COMBOBOX        IDC_COMBO1,3,14,70,278,CBS_DROPDOWNLIST | 
+                    CBS_OWNERDRAWFIXED | CBS_HASSTRINGS | WS_VSCROLL | 
+                    WS_GROUP | WS_TABSTOP
+    LTEXT           "ボタン２ ：",IDC_STATIC,75,4,34,8,SS_CENTERIMAGE
+    COMBOBOX        IDC_COMBO2,74,14,70,278,CBS_DROPDOWNLIST | 
+                    CBS_OWNERDRAWFIXED | CBS_HASSTRINGS | WS_VSCROLL | 
+                    WS_GROUP | WS_TABSTOP
+    LTEXT           "ボタン３ ：",IDC_STATIC,146,4,32,8,SS_CENTERIMAGE
+    COMBOBOX        IDC_COMBO3,145,14,70,286,CBS_DROPDOWNLIST | 
+                    CBS_OWNERDRAWFIXED | CBS_HASSTRINGS | WS_VSCROLL | 
+                    WS_GROUP | WS_TABSTOP
+    LTEXT           "ボタン４ ：",IDC_STATIC,217,4,30,8,SS_CENTERIMAGE
+    COMBOBOX        IDC_COMBO4,216,14,70,286,CBS_DROPDOWNLIST | 
+                    CBS_OWNERDRAWFIXED | CBS_HASSTRINGS | WS_VSCROLL | 
+                    WS_GROUP | WS_TABSTOP
+    LTEXT           "ボタン５ ：",IDC_STATIC,5,32,35,8,SS_CENTERIMAGE
+    COMBOBOX        IDC_COMBO5,3,42,70,278,CBS_DROPDOWNLIST | 
+                    CBS_OWNERDRAWFIXED | CBS_HASSTRINGS | WS_VSCROLL | 
+                    WS_GROUP | WS_TABSTOP
+    LTEXT           "ボタン６ ：",IDC_STATIC,75,32,34,8,SS_CENTERIMAGE
+    COMBOBOX        IDC_COMBO6,74,42,70,282,CBS_DROPDOWNLIST | 
+                    CBS_OWNERDRAWFIXED | CBS_HASSTRINGS | WS_VSCROLL | 
+                    WS_GROUP | WS_TABSTOP
+    LTEXT           "ボタン７ ：",IDC_STATIC,147,32,34,8,SS_CENTERIMAGE
+    COMBOBOX        IDC_COMBO7,145,42,70,280,CBS_DROPDOWNLIST | 
+                    CBS_OWNERDRAWFIXED | CBS_HASSTRINGS | WS_VSCROLL | 
+                    WS_GROUP | WS_TABSTOP
+    LTEXT           "ボタン８ ：",IDC_STATIC,217,32,33,8,SS_CENTERIMAGE
+    COMBOBOX        IDC_COMBO8,216,42,70,278,CBS_DROPDOWNLIST | 
+                    CBS_OWNERDRAWFIXED | CBS_HASSTRINGS | WS_VSCROLL | 
+                    WS_GROUP | WS_TABSTOP
+    LTEXT           "ホイールボタン ：",IDC_STATIC,4,65,51,8,SS_CENTERIMAGE
+    COMBOBOX        IDC_COMBO_WHEEL,57,62,70,280,CBS_DROPDOWNLIST | 
+                    CBS_OWNERDRAWFIXED | CBS_HASSTRINGS | WS_VSCROLL | 
+                    WS_GROUP | WS_TABSTOP
+    PUSHBUTTON      "ﾃﾞﾌｫﾙﾄ設定(&D)",IDC_DEFAULT,174,64,53,14
+    RTEXT           "Copyright (C) 2003 GDF Co., Ltd. All rights reserved.",
+                    IDC_STATIC,118,82,169,8,SS_CENTERIMAGE
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 284
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 84
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+100                     ICON    DISCARDABLE     "res\\100.ico"
+101                     ICON    DISCARDABLE     "res\\101.ico"
+102                     ICON    DISCARDABLE     "res\\102.ico"
+103                     ICON    DISCARDABLE     "res\\103.ico"
+104                     ICON    DISCARDABLE     "res\\104.ico"
+105                     ICON    DISCARDABLE     "res\\105.ico"
+106                     ICON    DISCARDABLE     "res\\106.ico"
+107                     ICON    DISCARDABLE     "res\\107.ico"
+108                     ICON    DISCARDABLE     "res\\108.ico"
+109                     ICON    DISCARDABLE     "res\\109.ico"
+110                     ICON    DISCARDABLE     "res\\110.ico"
+111                     ICON    DISCARDABLE     "res\\111.ico"
+112                     ICON    DISCARDABLE     "res\\112.ico"
+113                     ICON    DISCARDABLE     "res\\113.ico"
+114                     ICON    DISCARDABLE     "res\\114.ico"
+115                     ICON    DISCARDABLE     "res\\115.ico"
+116                     ICON    DISCARDABLE     "res\\116.ico"
+117                     ICON    DISCARDABLE     "res\\117.ico"
+118                     ICON    DISCARDABLE     "res\\118.ico"
+119                     ICON    DISCARDABLE     "res\\119.ico"
+120                     ICON    DISCARDABLE     "res\\120.ico"
+121                     ICON    DISCARDABLE     "res\\icon1.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_NAME                "AutoCAD ALL Version"
+    IDS_NAME_EX             "AutoCAD ALL"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    100                     "複写"
+    101                     "移動"
+    102                     "範囲ズーム"
+    103                     "窓ズーム"
+    104                     "線分"
+    105                     "円弧(3点)"
+    106                     "円(中心,半径)"
+    107                     "オフセット"
+    108                     "延長"
+    109                     "トリム"
+    110                     "Enter"
+    111                     "削除"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    112                     "キャンセル"
+    113                     "コピー"
+    114                     "切り取り"
+    115                     "貼り付け"
+    116                     "元に戻す"
+    117                     "開く"
+    118                     "閉じる"
+    119                     "表示／非表示"
+    120                     "ｷｰｽﾄﾛｰｸ"
+    121                     "Regen"
+END
+
+#endif    // 日本語 resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
